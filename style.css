@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffdab9;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  background-color: rgb(255, 255, 255, 0.3);
+  padding: 20px;
+  box-shadow: 0 6px 10px rgb(0, 0, 0, 0.3);
+}
