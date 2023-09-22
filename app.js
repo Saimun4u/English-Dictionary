@@ -18,7 +18,7 @@ async function fetchAPI(word) {
       meaningContainerEl.style.display = 'block';
       titleEl.textContent = word;
       meaningEl.textContent = 'Meaning is not available';
-      audioEl.style.display = none;
+      audioEl.style.display = 'none';
     } else {
       infoTextEl.style.display = 'none';
       meaningContainerEl.style.display = 'block';
@@ -29,7 +29,7 @@ async function fetchAPI(word) {
       audioEl.src = response[0].phonetics[0].audio;
     }
   } catch (error) {
-    console.log['title'];
+    infoTextEl.innerText = `Ou...there's a snag. Try again later`;
   }
 }
 
