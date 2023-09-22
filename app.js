@@ -29,7 +29,7 @@ async function fetchAPI(word) {
       audioEl.src = response[0].phonetics[0].audio;
     }
   } catch (error) {
-    infoTextEl.innerText = `Ou...there's a snag. Try again later`;
+    infoTextEl.innerText = `Ouch...there's a snag. Try again later`;
   }
 }
 
